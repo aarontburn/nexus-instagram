@@ -2,8 +2,8 @@
     "name": "{EXPORTED_MODULE_NAME}",
     "author": "aarontburn",
     "version": "1.0.0",
-    "description": "A developer template to embed websites within Nexus.",
+    "description": "A Instagram module for Nexus",
     "build_version": 1,
     "platforms": [],
-    "link": "https://github.com/aarontburn/nexus-template-webpage"
+    "link": "https://github.com/aarontburn/nexus-instagram"
 }
