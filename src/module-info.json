@@ -1,9 +1,33 @@
 {
-    "name": "{EXPORTED_MODULE_NAME}",
-    "author": "aarontburn",
+    "name": "Instagram",
+    "id": "aarontburn.Instagram",
     "version": "1.0.0",
+    "author": "aarontburn",
     "description": "A Instagram module for Nexus",
-    "build_version": 2,
+    "build-version": 2,
     "platforms": [],
-    "link": "https://github.com/aarontburn/nexus-instagram"
+    "link": "https://github.com/aarontburn/nexus-instagram",
+    "build": {
+        "excluded": [
+            "electron.ts"
+        ],
+        "included": [],
+        "process": "./process/main.js",
+        "replace": [
+            {
+                "from": "{EXPORTED_MODULE_ID}",
+                "to": "%id%",
+                "at": [
+                    "./process/main.ts"
+                ]
+            },
+            {
+                "from": "{EXPORTED_MODULE_NAME}",
+                "to": "%name%",
+                "at": [
+                    "./process/main.ts"
+                ]
+            }
+        ]
+    }
 }
