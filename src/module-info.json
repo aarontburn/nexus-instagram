@@ -4,10 +4,10 @@
     "version": "1.0.0",
     "author": "aarontburn",
     "description": "A Instagram module for Nexus",
-    "build-version": 2,
     "platforms": [],
     "link": "https://github.com/aarontburn/nexus-instagram",
     "build": {
+        "build-version": 2,
         "excluded": [
             "electron.ts"
         ],
